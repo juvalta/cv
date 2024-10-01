@@ -58,7 +58,7 @@ function App() {
 
             <div style={{ width: '70%' }}>
               <Typography variant="h6" style={{ marginRight: '55%' }}> Esittely <br /> <br /> </Typography>
-              <Typography align="left"> Oulun yliopiston tietojenkäsittelytieteitten maisterivaiheen opiskelija. Kirjoitin kandidaatin työni potilastietojärjestelmien käytettävyyden tasosta Suomessa, ja olenkin erityisesti kiinnostunut ohjelmistojen käytettävyyden parantamisesta. <br /> <br /> <br /> </Typography>
+              <Typography align="left"> Oulun yliopiston tietojenkäsittelytieteen maisterivaiheen opiskelija. Kirjoitin kanditutkielmani potilastietojärjestelmien käytettävyyden tasosta Suomessa, ja olenkin erityisesti kiinnostunut käytettävyydestä ja käyttäjäystävällisestä suunnittelusta. <br /> <br /> <br /> </Typography>
             </div>
             <div style={{ width: '70%' }}>
               <Typography variant="h6" style={{ marginRight: '55%' }}> Koulutus <br /> <br /> </Typography>
@@ -67,7 +67,7 @@ function App() {
 
                 · Lukio (Oulun Suomalaisen Yhteiskoulun lukio) <br />
 
-                · Luonnontieteitten kandidaatti, tietojenkäsittelytieteet. Keskiarvo 4,17. <br />
+                · Luonnontieteen kandidaatti, tietojenkäsittelytieteet. Keskiarvo 4,17. <br />
 
                 · KieKuVi-opintokokonaisuus osana kandidaatin tutkintoa. Kieli-, kulttuuri- ja viestintä-opintoihini kuuluivat muun muassa italian ja saksan kielet. <br />
 
@@ -82,24 +82,25 @@ function App() {
 
                 · Ruotsi (hyvä) <br />
 
-                · Saksa (B1/B2, oikein hyvä) <br />
+                · Saksa (B1/B2, sujuva) <br />
 
-                · Italia ("hyvät alkeet") <br />
+                · Italia (tyydyttävä) <br />
 
-                · Venäjän (alkeet) <br />
+                · Venäjä (alkeet) <br />
               </Typography>
               <Typography variant="h6" style={{ marginRight: '55%', marginTop: '5%' }}> Ohjelmointikokemus <br /> <br /> </Typography>
               <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
 
                 · Github: https://github.com/juvalta <br />
 
-                · React (Javascript, HTML, CSS, MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi, npm, Visual Paradigm, käyttöliittymän paperiprototypointi, Node.js) <br />
+                · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi) <br />
 
                 · Java <br />
 
                 · C++ <br />
 
-                · Unity (C#). Useiden VR-pelien teko, olen päässyt myös Steamiin yhden VR-pelin tekijäksi. <br />
+                · Unity (C#). <br/>
+                  · Useiden VR-pelien teko, olen päässyt myös Steamiin yhden VR-pelin tekijäksi (Moonatees). <br />
 
                 · Python <br />
               </Typography>
@@ -127,23 +128,22 @@ function App() {
 
                 · Käyttäjälähtöinen suunnittelu <br />
 
-                · Vieraiden kielien puhuminen <br />
-
                 · Windows-käyttöjärjestelmän virhetilojen korjaaminen <br />
 
-                · Videonmuokkausohjelmiston osaaminen (Davinci Resolve). <br />
+                · Videonmuokkaus (Davinci Resolve). <br />
 
-                · Esittelytaidot. Olen LEGO-harrastukseni kautta ollut näytteilleasettajana eli esiintyjänä Suomen eri LEGO-messuilla omien LEGO-teosteni kanssa. Suurimmilla messuilla vierailijoita on ollut jopa kymmenen tuhatta, ja olen ollut esittelemässä sekä omia teoksiani että Palikkatakomon yhteisteoksia. <br />
+                · Esiintymistilanteissa toimiminen. <br/>
+                  · Olen LEGO-harrastukseni kautta ollut näytteilleasettajana eli esiintyjänä Suomen eri LEGO-messuilla omien LEGO-teosteni kanssa. Suurimmilla messuilla vierailijoita on ollut jopa kymmenen tuhatta, ja olen ollut esittelemässä sekä omia teoksiani että Palikkatakomon yhteisteoksia. <br />
               </Typography>
 
               <Typography variant="h6" style={{ marginRight: "50%", marginTop: '5%' }}> Työkokemus <br /> <br /> </Typography>
               <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 
-                · Projektipäällikkö School of Gamingin Oulun yliopistolta tilaamalla kurssiprojektilla, jolla toteutettiin nettisivuprototyyppi asiakkaalle. Projektijohtajuuteen kuului tapaamisten järjestäminen, työn jakaminen, asiakaskontaktit, SCRUMin käyttö, ja projektin ohjaus oikeaan suuntaan. Projektissa oli käytössä muun muassa React, Node.js, MongoDB, Auth0, Figma, ja paperiprototypointi. <br />
+                · Projektipäällikkö School of Gamingin Oulun yliopistolta tilaamalla kurssiprojektilla. <br />
 
-                · Koodikärpät-kesätyö 6.6.-5.8.16. Pelin tekeminen ja suunnitteleminen Unityllä. <br />
+                · Koodikärpät-kesätyö 6.6.-5.8.16. Unity3D. <br />
 
-                · Koodikärpät-kesätyö 3.7.-24.7.2017. Unity3D-peliohjelmointi. <br />
+                · Koodikärpät-kesätyö 3.7.-24.7.2017. Unity3D. <br />
 
                 · Kesätyöseteliharjoittelu Oulun yliopistolla. <br />
 
@@ -155,9 +155,13 @@ function App() {
               <Typography variant="h6" style={{ marginRight: "50%" }}> Vapaaehtoistyö <br /> <br /> </Typography>
               <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 
-                · Palikkatakomon hallituksen jäsen. Tilasin Palikkatakomon nettisivuille käytettävyystestauksen Oulun yliopiston kurssin kautta, ja aloitin juuri työn nettisivujen modernisoimiseksi. <br />
+                · Palikkatakomon hallituksen jäsen. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. <br />
 
-                · Palikkatakomossa vastuualueeni on sosiaalisen median hallinta, jäsenien kanssa viestintä, Palikkatakomon LEGO-ambassadorin avustus erinäisissä tehtävissä. Olen myös avustanut yhteisteosten ja -tilausten järjestämisessä (mm. monituhatrivisen Excelin optimointi tulostukseen). Tapahtumissa olen auttanut tapahtumien pystytyksessä, yhteisteosten esittelemisessä, kilpailujen organisoinnissa, mediahaastatteluissa, jäsenrekrytoinnissa ja mainosvermeiden pystytyksessä. <br />  </Typography>
+                · Palikkatakomossa vastuualueeni on sosiaalisen median hallinta, jäsenien kanssa viestintä, Palikkatakomon LEGO-ambassadorin avustus erinäisissä tehtävissä. Olen myös avustanut yhteisteosten ja -tilausten järjestämisessä (mm. monituhatrivisen Excelin optimointi tulostukseen). Tapahtumissa olen auttanut tapahtumien pystytyksessä, yhteisteosten esittelemisessä, kilpailujen organisoinnissa, mediahaastatteluissa, jäsenrekrytoinnissa ja mainosvermeiden pystytyksessä. <br />
+                  · somehallinta
+                  · LAN-Ambassadorin avustus
+                  · 
+              </Typography>
             </div>
 
           </Grid>
