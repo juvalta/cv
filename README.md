@@ -5,5 +5,5 @@ CV:ni löytyy osoitteesta . CV on toteutettu Reactilla, ja lähdekoodia voi kats
 TO DO:
 
 - Aseta Typography-elementeille oma tyyli, jotta tyyliä ei tarvitse asettaa jokaiselle elementille erikseen. Vaihtoehtoisesti laita Typography-elementeille tunnisteet, joiden perusteella ne saavat tunnisteen mukaisen tyylin.
-- Muokkaa sivun saavutettavuutta (sivu ei toimi lukemistilassa, ja <br/> -tagit rivinvaihtoon rikkovat lukemistilaa).
+- Muokkaa sivun saavutettavuutta (sivu ei toimi lukemistilassa, ja br/ -tagit rivinvaihtoon rikkovat lukemistilaa).
 - Tee englanninkielinen versio.
