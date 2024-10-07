@@ -1,6 +1,4 @@
 import { useLayoutEffect, useState, useRef } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { Typography, IconButton, Container, Avatar, Box, alpha, Card, Divider } from '@mui/material'
 import Grid from '@mui/material/Grid2'
@@ -52,7 +50,7 @@ function App() {
               </div>
             </Grid>
 
-
+            console.log(“Your process.env.PUBLIC_URL”, process.env.PUBLIC_URL)
 
 
 
