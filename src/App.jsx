@@ -133,7 +133,8 @@ function App() {
                 · Videonmuokkaus (Davinci Resolve). <br />
 
                 · Esiintymistilanteissa toimiminen. <br/>
-                  · Olen LEGO-harrastukseni kautta ollut näytteilleasettajana eli esiintyjänä Suomen eri LEGO-messuilla omien LEGO-teosteni kanssa. Suurimmilla messuilla vierailijoita on ollut jopa kymmenen tuhatta, ja olen ollut esittelemässä sekä omia teoksiani että Palikkatakomon yhteisteoksia. <br />
+                  · Olen LEGO-harrastukseni kautta ollut näytteilleasettajana eli esiintyjänä Suomen eri LEGO-messuilla <br />
+                    · vierailijoita on ollut jopa 10000. <br />
               </Typography>
 
               <Typography variant="h6" style={{ marginRight: "50%", marginTop: '5%' }}> Työkokemus <br /> <br /> </Typography>
@@ -155,12 +156,13 @@ function App() {
               <Typography variant="h6" style={{ marginRight: "50%" }}> Vapaaehtoistyö <br /> <br /> </Typography>
               <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 
-                · Palikkatakomon hallituksen jäsen. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. <br />
-
-                · Palikkatakomossa vastuualueeni on sosiaalisen median hallinta, jäsenien kanssa viestintä, Palikkatakomon LEGO-ambassadorin avustus erinäisissä tehtävissä. Olen myös avustanut yhteisteosten ja -tilausten järjestämisessä (mm. monituhatrivisen Excelin optimointi tulostukseen). Tapahtumissa olen auttanut tapahtumien pystytyksessä, yhteisteosten esittelemisessä, kilpailujen organisoinnissa, mediahaastatteluissa, jäsenrekrytoinnissa ja mainosvermeiden pystytyksessä. <br />
-                  · somehallinta
-                  · LAN-Ambassadorin avustus
-                  · 
+                · Palikkatakomon hallituksen jäsen. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. Olen myös tehnyt: <br />
+                  · somehallintaa <br />
+                  · LAN-Ambassadorin avustusta <br />
+                  · yhteisteosten ja -tilausten organisointia <br />
+                  · mediaedustusta <br />
+                  · jäsenrekrytointia <br />
+                  · kilpailujen organisointia <br />
               </Typography>
             </div>
 
