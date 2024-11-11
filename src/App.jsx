@@ -22,148 +22,10 @@ function App() {
       <div style={{ border: '0,1%', borderRadius: '1%', borderColor: "lightgray", backgroundColor: alpha('#25aeb0', 0.25) }}>
         <Typography variant="h3" style={{ paddingTop: '5%', paddingBottom: '5%' }}> Curriculum Vitae </Typography>
 
+        
         {/* Tämä Grid pitää sisällään koko CV:n pääsisällön. #25aeb0 */}
-        <Grid container style={{ marginLeft: '10%' }}>
-
-          <Grid item size={5}>
-
-            <Grid item size={6}>
-              <div style={{ width: '70%', paddingBottom: '5%' }}>
-
-                <Grid container spacing={3} direction={'row'} alignItems={"center"} style={{ width: '100%' }}>
-                  <Grid size={1}>
-                    {/*Left intentionally blank.*/}
-                  </Grid>
-
-                  <Grid size={4} align="center" style={{ justifyContent: "center" }}>
-
-                    <Avatar src={pfp} sx={{ width: 102, height: 102 }}></Avatar>
-
-                  </Grid>
-                  <Grid align="left" size={7}>
-
-                    <Typography style={{ textAlign: 'left' }}> Juho Valtavaara </Typography>
-
-                  </Grid>
-
-                </Grid>
-              </div>
-            </Grid>
-
-
-
-            <div style={{ width: '70%' }}>
-              <Typography variant="h6" style={{ marginRight: '55%' }}> Esittely <br /> <br /> </Typography>
-              <Typography align="left"> Oulun yliopiston tietojenkäsittelytieteen maisterivaiheen opiskelija. Kirjoitin kanditutkielmani potilastietojärjestelmien käytettävyyden tasosta Suomessa, ja olenkin erityisesti kiinnostunut käytettävyydestä ja käyttäjäystävällisestä suunnittelusta. <br /> <br /> <br /> </Typography>
-            </div>
-            <div style={{ width: '70%' }}>
-              <Typography variant="h6" style={{ marginRight: '55%' }}> Koulutus <br /> <br /> </Typography>
-              <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
-
-
-                · Lukio (Oulun Suomalaisen Yhteiskoulun lukio) <br />
-
-                · Luonnontieteen kandidaatti, tietojenkäsittelytieteet. Keskiarvo 4,17. <br />
-
-                · KieKuVi-opintokokonaisuus osana kandidaatin tutkintoa. Kieli-, kulttuuri- ja viestintä-opintoihini kuuluivat muun muassa italian ja saksan kielet. <br />
-
-                · Nykyisellään maisterivaiheen opiskelija tietojenkäsittelytieteitten laitoksella Oulun yliopistolla.  </Typography>
-              <Typography variant="h6" style={{ marginRight: '55%', marginTop: '5%' }}> Kielitaito <br /> <br /> </Typography>
-              <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
-
-
-                · Suomi (äidinkieli) <br />
-
-                · Englanti (erinomainen) <br />
-
-                · Ruotsi (hyvä) <br />
-
-                · Saksa (B1/B2, sujuva) <br />
-
-                · Italia (tyydyttävä) <br />
-
-                · Venäjä (alkeet) <br />
-              </Typography>
-              <Typography variant="h6" style={{ marginRight: '55%', marginTop: '5%' }}> Ohjelmointikokemus <br /> <br /> </Typography>
-              <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
-
-                · Github: https://github.com/juvalta <br />
-
-                · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi) <br />
-
-                · Java <br />
-
-                · C++ <br />
-
-                · Unity (C#). <br />
-                · Useiden VR-pelien teko, olen päässyt myös Steamiin yhden VR-pelin tekijäksi (Moonatees). <br />
-
-                · Python <br />
-              </Typography>
-            </div>
-          </Grid>
-
-          {/* Oikea puoli CV:stä on tämän Gridin alla */}
-          <Grid item size={2}>
-
-            <Divider orientation='vertical' style={{ marginRight: '100%', borderRightWidth: 4 }} />
-
-          </Grid>
-
-          <Grid item size={5}>
-            <Grid size={6}>
-              {/*Left intentionally blank */}
-              <div style={{ marginBottom: 125 }}>
-
-              </div>
-            </Grid>
-            <div style={{ width: '70%', paddingBottom: '5%' }}>
-
-              <Typography variant="h6" style={{ marginRight: "50%" }}> Taidot <br /> <br /> </Typography>
-              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
-
-                · Käyttäjälähtöinen suunnittelu <br />
-
-                · Windows-käyttöjärjestelmän virhetilojen korjaaminen <br />
-
-                · Videonmuokkaus (Davinci Resolve). <br />
-
-                · Esiintymistilanteissa toimiminen. <br />
-                · Olen LEGO-harrastukseni kautta ollut näytteilleasettajana eli esiintyjänä Suomen eri LEGO-messuilla <br />
-                · vierailijoita on ollut jopa 10000. <br />
-              </Typography>
-
-              <Typography variant="h6" style={{ marginRight: "50%", marginTop: '5%' }}> Työkokemus <br /> <br /> </Typography>
-              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
-
-                · Projektipäällikkö School of Gamingin Oulun yliopistolta tilaamalla kurssiprojektilla. <br />
-
-                · Koodikärpät-kesätyö 6.6.-5.8.16. Unity3D. <br />
-
-                · Koodikärpät-kesätyö 3.7.-24.7.2017. Unity3D. <br />
-
-                · Kesätyöseteliharjoittelu Oulun yliopistolla. <br />
-
-                · TET-harjoittelu Oulun Korussa. <br />
-
-              </Typography>
-            </div>
-            <div style={{ width: '70%' }}>
-              <Typography variant="h6" style={{ marginRight: "50%" }}> Vapaaehtoistyö <br /> <br /> </Typography>
-              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
-
-                · Palikkatakomon hallituksen jäsen. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. Olen myös tehnyt: <br />
-                · somehallintaa <br />
-                · LAN-Ambassadorin avustusta <br />
-                · yhteisteosten ja -tilausten organisointia <br />
-                · mediaedustusta <br />
-                · jäsenrekrytointia <br />
-                · kilpailujen organisointia <br />
-              </Typography>
-            </div>
-
-          </Grid>
-        </Grid>
+        
+        
 
         {/*Mobiilioptimoitu puoli alkaa tästä. Mobiililla näkyy yksi sarake kahden sijasta.*/}
 
@@ -171,30 +33,30 @@ function App() {
           <Grid item size="grow">
 
           </Grid>
-          <Grid item size={{xs: 10, sm:4}}>
+          <Grid item size={{ xs: 10, sm: 4 }}>
 
-          <div style={{paddingBottom: '5%' }}>
+            <div style={{ paddingBottom: '5%' }}>
 
-                <Grid container spacing={3} direction={'row'} alignItems={"center"} style={{ width: '100%' }}>
-                  <Grid size={1}>
-                    {/*Left intentionally blank.*/}
-                  </Grid>
+              <Grid container spacing={3} direction={'row'} alignItems={"center"} style={{ width: '100%' }}>
+                <Grid size={1}>
+                  {/*Left intentionally blank.*/}
+                </Grid>
 
-                  <Grid size={4} align="center" style={{ justifyContent: "center" }}>
+                <Grid size={4} align="center" style={{ justifyContent: "center" }}>
 
-                    <Avatar src={pfp} sx={{ width: 102, height: 102 }}></Avatar>
-
-                  </Grid>
-                  <Grid align="left" size={7}>
-
-                    <Typography style={{ textAlign: 'left' }}> Juho Valtavaara </Typography>
-
-                  </Grid>
+                  <Avatar src={pfp} sx={{ width: 102, height: 102 }}></Avatar>
 
                 </Grid>
-              </div>
+                <Grid align="left" size={7}>
 
-          <div >
+                  <Typography style={{ textAlign: 'left' }}> Juho Valtavaara </Typography>
+
+                </Grid>
+
+              </Grid>
+            </div>
+
+            <div >
               <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> Esittely <br /> <br /> </Typography>
               <Typography align="left"> Oulun yliopiston tietojenkäsittelytieteen maisterivaiheen opiskelija. Kirjoitin kanditutkielmani potilastietojärjestelmien käytettävyyden tasosta Suomessa, ja olenkin erityisesti kiinnostunut käytettävyydestä ja käyttäjäystävällisestä suunnittelusta. <br /> <br /> <br /> </Typography>
             </div>
@@ -208,8 +70,7 @@ function App() {
                 · Luonnontieteen kandidaatti, tietojenkäsittelytieteet. Keskiarvo 4,17. <br />
 
                 · KieKuVi-opintokokonaisuus osana kandidaatin tutkintoa. Kieli-, kulttuuri- ja viestintä-opintoihini kuuluivat muun muassa italian ja saksan kielet. <br />
-
-                · Nykyisellään maisterivaiheen opiskelija tietojenkäsittelytieteitten laitoksella Oulun yliopistolla.  </Typography>
+              </Typography>
               <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> Kielitaito <br /> <br /> </Typography>
               <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
 
@@ -238,13 +99,13 @@ function App() {
                 · C++ <br />
 
                 · Unity (C#). <br />
-                · Useiden VR-pelien teko, olen päässyt myös Steamiin yhden VR-pelin tekijäksi (Moonatees). <br />
+                · VR-pelit, kuten Moonatees. <br />
 
                 · Python <br />
               </Typography>
             </div>
 
-            <div style={{  }}>
+            <div style={{}}>
 
               <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> Taidot <br /> <br /> </Typography>
               <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginLeft: "0%" }}>
@@ -256,8 +117,8 @@ function App() {
                 · Videonmuokkaus (Davinci Resolve). <br />
 
                 · Esiintymistilanteissa toimiminen. <br />
-                · Olen LEGO-harrastukseni kautta ollut näytteilleasettajana eli esiintyjänä Suomen eri LEGO-messuilla <br />
-                · vierailijoita on ollut jopa 10000. <br />
+                · Esiintyjänä Suomen eri LEGO-messuilla <br />
+                · Vierailijoita on ollut jopa 10000. <br />
               </Typography>
 
               <Typography variant="h6" style={{ marginTop: '10%', marginBottom: "5%" }}> Työkokemus <br /> <br /> </Typography>
@@ -275,7 +136,7 @@ function App() {
 
               </Typography>
             </div>
-            <div style={{ }}>
+            <div style={{}}>
               <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> Vapaaehtoistyö <br /> <br /> </Typography>
               <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 
