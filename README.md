@@ -1,6 +1,6 @@
 # CV
 
-CV:ni löytyy osoitteesta . CV on toteutettu Reactilla, ja lähdekoodia voi katsella tältä sivulta.
+CV:ni löytyy osoitteesta https://juvalta.github.io/cv/. CV on toteutettu Reactilla, ja lähdekoodia voi katsella tältä sivulta.
 
 TO DO:
 
