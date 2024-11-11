@@ -168,7 +168,7 @@ function App() {
         {/*Mobiilioptimoitu puoli alkaa tästä. Mobiililla näkyy yksi sarake kahden sijasta.*/}
 
         <Grid container justifyContent="center">
-          <Grid item size={4}>
+          <Grid item size="grow">
 
           </Grid>
           <Grid item size={4}>
@@ -289,7 +289,7 @@ function App() {
               </Typography>
             </div>
           </Grid>
-          <Grid item size={4}>
+          <Grid item size="grow">
 
           </Grid>
         </Grid>
