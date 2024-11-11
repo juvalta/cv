@@ -171,7 +171,7 @@ function App() {
           <Grid item size="grow">
 
           </Grid>
-          <Grid item size={4}>
+          <Grid item size={{xs: 12, sm:4}}>
 
           <div style={{paddingBottom: '5%' }}>
 
