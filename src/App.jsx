@@ -4,7 +4,7 @@ import { Typography, IconButton, Container, Avatar, Box, alpha, Card, Divider } 
 import Grid from '@mui/material/Grid2'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import pfp from './assets/cv_pfp_square.jpg'
-
+import pfp2 from './assets/cv_pfp_square.jpg'
 
 function App() {
 
