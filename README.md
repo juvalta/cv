@@ -1,6 +1,6 @@
 When broken:
 
-<base href="{{https://juvalta.github.io/cv/}}">
+"<base href="{{https://juvalta.github.io/cv/}}">"
 
 -> This will make the site reference https://juvalta.github.io/cv/ instead of https://juvalta.github.io
 
