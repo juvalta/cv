@@ -21,10 +21,10 @@ function LandingPage() {
       <div style={{ border: '0,1%', borderRadius: '1%', borderColor: "lightgray", backgroundColor: alpha('#25aeb0', 0.25) }}>
         <Typography variant="h3" style={{ paddingTop: '5%', paddingBottom: '5%', fontStyle: 'italic' }}> Curriculum Vitae </Typography>
 
-        
+
         {/* Tämä Grid pitää sisällään koko CV:n pääsisällön. #25aeb0 */}
-        
-        
+
+
 
         {/*Mobiilioptimoitu puoli alkaa tästä. Mobiililla näkyy yksi sarake kahden sijasta.*/}
 
@@ -38,12 +38,12 @@ function LandingPage() {
 
               <Grid container spacing={3} direction={'column'} alignItems={"center"} style={{ width: '100%' }}>
 
-                <Grid size={{xs: 12, sm:4}} align="center" style={{ justifyContent: "center" }}>
+                <Grid size={{ xs: 12, sm: 4 }} align="center" style={{ justifyContent: "center" }}>
 
                   <Avatar src={pfp} sx={{ width: 102, height: 102 }}></Avatar>
 
                 </Grid>
-                <Grid align="left" size={{xs:12, sm:4}}>
+                <Grid align="left" size={{ xs: 12, sm: 4 }}>
 
                   <Typography style={{ textAlign: 'center' }}> Juho Valtavaara </Typography>
 
@@ -99,6 +99,13 @@ function LandingPage() {
 
                 · Python <br />
               </Typography>
+              <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Projektit </strong> <br /> <br /> </Typography>
+              <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
+
+                · Tämän sivun lähdekoodi: https://github.com/juvalta/cv <br />
+
+                · <a href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">Moonatees</a> <br />
+              </Typography>
             </div>
 
             <div style={{}}>
@@ -133,9 +140,10 @@ function LandingPage() {
             </div>
             <div style={{}}>
               <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Vapaaehtoistyö </strong> <br /> <br /> </Typography>
-              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
+              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginBottom: "15%" }}>
 
-                · Palikkatakomon hallituksen jäsen. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. Olen myös tehnyt: <br />
+                <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Palikkatakomo </strong> <br /> <br /> </Typography>
+                · Hallituksen jäsen 2024. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. Olen myös tehnyt: <br />
                 · somehallintaa <br />
                 · LAN-Ambassadorin avustusta <br />
                 · yhteisteosten ja -tilausten organisointia <br />
@@ -143,6 +151,18 @@ function LandingPage() {
                 · jäsenrekrytointia <br />
                 · kilpailujen organisointia <br />
               </Typography>
+              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
+
+                <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Blanko ry </strong> <br /> <br /> </Typography>
+                · Hallituksen jäsen 2025. Suhdevastaava. Vastuut: <br />
+                · yhteistyökumppaneiden rekrytointi <br />
+                · yhteistyökumppaneiden työpaikkojen mainostus <br />
+                · yhteistyökumppani-illan järjestäminen <br />
+                · suhdetiimin managerointi <br />
+                · yhteistyökumppaniviestintä <br />
+                · siivous ja valvonta tapahtumissa <br />
+              </Typography>
+
             </div>
           </Grid>
           <Grid item size="grow">
@@ -155,7 +175,7 @@ function LandingPage() {
           <Container maxWidth='sm' style={{ color: "blue" }}> </Container>
           <Typography> Tämä CV on koodattu Javascriptillä, eli se on nettisivu! </Typography>
           <IconButton style={{ color: "lightblue" }}>
-            <LinkedInIcon sx={{fontSize: 40}} size='large' onClick={event => window.location.href = 'https://fi.linkedin.com/in/juho-valtavaara-028992258?trk=public_profile_browsemap'}></LinkedInIcon>
+            <LinkedInIcon sx={{ fontSize: 40 }} size='large' onClick={event => window.location.href = 'https://fi.linkedin.com/in/juho-valtavaara-028992258?trk=public_profile_browsemap'}></LinkedInIcon>
           </IconButton>
         </footer>
       </div>

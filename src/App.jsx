@@ -23,10 +23,11 @@ function App() {
   */}
 
   return (
-    <>
-      <LandingPage />
-      
-    </>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<LandingPage />} />
+      </Routes>
+    </Router>
 
 
   )
