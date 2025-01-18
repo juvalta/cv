@@ -25,7 +25,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<LandingPage />} />
+        {/*path="" is required for localhost dev environment to work, but github pages is deployed as https://juvalta.github.io/cv/ so gh-pages requires path="/cv"*/}
+        <Route exact path="/cv" element={<LandingPage />} />
+        <Route exact path="" element={<LandingPage />} />
       </Routes>
     </Router>
 
