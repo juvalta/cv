@@ -26,15 +26,6 @@ function App() {
     <>
       <LandingPage />
       
-
-
-        <footer style={{ paddingTop: '10%', paddingBottom: '5%' }}>
-          <Container maxWidth='sm' style={{ color: "blue" }}> </Container>
-          <Typography> Tämä CV on koodattu Javascriptillä, eli se on nettisivu! </Typography>
-          <IconButton style={{ color: "lightblue" }}>
-            <LinkedInIcon sx={{fontSize: 40}} size='large' onClick={event => window.location.href = 'https://fi.linkedin.com/in/juho-valtavaara-028992258?trk=public_profile_browsemap'}></LinkedInIcon>
-          </IconButton>
-        </footer>
     </>
 
 
