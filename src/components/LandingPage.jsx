@@ -102,7 +102,7 @@ function LandingPage() {
               <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Projektit </strong> <br /> <br /> </Typography>
               <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
 
-                · Tämän sivun lähdekoodi: https://github.com/juvalta/cv <br />
+                · Tämän sivun lähdekoodi: <a href="https://github.com/juvalta/cv">https://github.com/juvalta/cv</a> <br />
 
                 · <a href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">Moonatees</a> <br />
               </Typography>
