@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import pfp from '../assets/cv_pfp_square.jpg'
 import TitleNamePFP from './TitleNamePFP';
 
-function LandingPage() {
+function Solita() {
 
   const [height, setHeight] = useState(0)
   const profilePictureHeight = useRef(null)
@@ -51,6 +51,11 @@ function LandingPage() {
                 </Grid>
 
               </Grid>
+            </div>
+
+            <div>
+                <Typography h6> <strong> Miksi minä sopisin Solitalle? </strong> </Typography>
+
             </div>
 
             <div >
@@ -186,4 +191,5 @@ function LandingPage() {
   )
 }
 
-export default LandingPage
+export default Solita
+

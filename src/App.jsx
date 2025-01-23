@@ -10,6 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
+import Solita from './components/Solita';
 
 function App() {
 
@@ -23,14 +24,16 @@ function App() {
   */}
 
   return (
+    <div style={{ border: '0,1%', borderRadius: '1%', borderColor: "lightgray", backgroundColor: alpha('#25aeb0', 0.25) }}>
     <Router>
       <Routes>
         {/*path="" is required for localhost dev environment to work, but github pages is deployed as https://juvalta.github.io/cv/ so gh-pages requires path="/cv"*/}
         <Route exact path="/cv" element={<LandingPage />} />
         <Route exact path="" element={<LandingPage />} />
+        <Route exact path="/cv/solita" element={<Solita />} />
       </Routes>
     </Router>
-
+    </div>
 
   )
 }
