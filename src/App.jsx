@@ -33,6 +33,7 @@ function App() {
         <Route exact path="" element={<LandingPage />} />
         <Route exact path="/cv/solita" element={<Solita />} />
         <Route exact path="/cv/en" element={<LandingPage_EN />} />
+        <Route exact path="./en" element={<LandingPage_EN />} />
       </Routes>
     </Router>
     </div>
