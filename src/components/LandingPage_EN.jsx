@@ -53,7 +53,6 @@ function LandingPage() {
             </Grid>
           </div>
 
-
           <div >
             <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Introduction </strong> <br /> <br /> </Typography>
             <Typography align="left"> Master's student in Information Processing Science at the University of Oulu.

@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid2'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import pfp from './assets/cv_pfp_square.jpg'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -26,13 +26,13 @@ function App() {
 
   return (
     <div style={{ border: '0,1%', borderRadius: '1%', borderColor: "lightgray", backgroundColor: alpha('#25aeb0', 0.25) }}>
-    <Router basename= {"/cv"}>
+    <Router basename= {"/"}>
       <Routes>
         {/*path="" is required for localhost dev environment to work, but github pages is deployed as https://juvalta.github.io/cv/ so gh-pages requires path="/cv"*/}
         <Route exact path="/cv" element={<LandingPage />} />
         <Route exact path="" element={<LandingPage />} />
         <Route exact path="/cv/solita" element={<Solita />} />
-        <Route exact path="/cv/en" element={<LandingPage_EN />} />
+        <Route exact path="/en" element={<LandingPage_EN />} />
         <Route exact path="./en" element={<LandingPage_EN />} />
       </Routes>
     </Router>
