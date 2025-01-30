@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid2'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import pfp from './assets/cv_pfp_square.jpg'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
