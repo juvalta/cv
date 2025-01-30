@@ -87,7 +87,7 @@ function LandingPage() {
               <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Ohjelmointikokemus </strong> <br /> <br /> </Typography>
               <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
 
-                · Github: https://github.com/juvalta <br />
+                · Github: <a href="https://github.com/juvalta">https://github.com/juvalta</a> <br />
 
                 · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi) <br />
 
@@ -95,7 +95,8 @@ function LandingPage() {
 
                 · C++ <br />
 
-                · Unity (C#). <br />
+                · Unity (laaja C#-kokemus). <br />
+
                 · VR-pelit, kuten Moonatees. <br />
 
                 · Python <br />
@@ -114,7 +115,7 @@ function LandingPage() {
               <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Taidot </strong> <br /> <br /> </Typography>
               <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginLeft: "0%" }}>
 
-                · Käyttäjälähtöinen suunnittelu <br />
+                · Käyttäjälähtöinen suunnittelu ja käytettävyys <br />
 
                 · Windows-käyttöjärjestelmän virhetilojen korjaaminen <br />
 
@@ -151,6 +152,7 @@ function LandingPage() {
                 · mediaedustusta <br />
                 · jäsenrekrytointia <br />
                 · kilpailujen organisointia <br />
+                · nettiartikkelien teko Textpattern CMS:llä <br />
               </Typography>
               <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 

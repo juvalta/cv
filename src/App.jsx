@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import Solita from './components/Solita';
+import LandingPage_EN from './components/LandingPage_EN';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/cv" element={<LandingPage />} />
         <Route exact path="" element={<LandingPage />} />
         <Route exact path="/cv/solita" element={<Solita />} />
+        <Route exact path="/cv/en" element={<LandingPage_EN />} />
       </Routes>
     </Router>
     </div>
