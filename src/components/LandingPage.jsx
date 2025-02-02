@@ -133,7 +133,7 @@ function LandingPage() {
             <Typography variant="h6" style={{ marginTop: '10%', marginBottom: "5%" }}> <strong> Työkokemus </strong> <br /> <br /> </Typography>
             <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 
-              · Projektipäällikkö School of Gamingin Oulun yliopistolta tilaamalla kurssiprojektilla. <br />
+              · Projektipäällikkö & SCRUM-päällikkö School of Gamingin Oulun yliopistolta tilaamalla kurssiprojektilla (7.1.-14.5.21). <br />
 
               · Koodikärpät-kesätyö 6.6.-5.8.16. Unity3D. <br />
 

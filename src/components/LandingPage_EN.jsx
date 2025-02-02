@@ -136,7 +136,7 @@ function LandingPage() {
             <Typography variant="h6" style={{ marginTop: '10%', marginBottom: "5%" }}> <strong> Working experience </strong> <br /> <br /> </Typography>
             <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 
-              · Project manager for School of Gaming project at the University of Oulu during a course project.<br />
+              · Project manager & SCRUM master for School of Gaming project at the University of Oulu during a course project (7.1.-14.5.21).<br />
 
               · Summer job at Koodikärpät 6.6.-5.8.16. Unity3D. <br />
 
