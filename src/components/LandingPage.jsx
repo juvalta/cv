@@ -91,7 +91,7 @@ function LandingPage() {
 
               · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi) <br />
 
-              · Kehitysympäristön käyttöönotto WSL2:lla (Ubuntu, Python venv) <br />
+              · Kehitysympäristön käyttöönotto WSL2:lla (Ubuntu, Python venv, Lektor CMS) <br />
 
               · Java <br />
 
