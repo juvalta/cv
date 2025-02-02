@@ -94,6 +94,8 @@ function LandingPage() {
 
               · Web development using React (e.g. MongoDB, Figma, MaterialUI, Auth0-integration) <br />
 
+              · Setting up a development environment with WSL2 (Ubuntu, Python venv) <br />
+
               · Java <br />
 
               · C++ <br />
