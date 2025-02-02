@@ -7,6 +7,7 @@ TO DO:
 - Aseta Typography-elementeille oma tyyli, jotta tyyliä ei tarvitse asettaa jokaiselle elementille erikseen. Vaihtoehtoisesti laita Typography-elementeille tunnisteet, joiden perusteella ne saavat tunnisteen mukaisen tyylin.
 - Muokkaa sivun saavutettavuutta (sivu ei toimi lukemistilassa, ja br/ -tagit rivinvaihtoon rikkovat lukemistilaa).
 - Lisää nappi (toggle) englannin- ja suomenkieliselle CV:lle
+- Muuta CV:n rakennetta modulaariseksi (esim. otsikko Curriculum Vitae, profiilikuva ja nimi voisivat olla oma kompenenttinsa, sillä ne eivät muutu kielten välillä)
 
 TEHTY:
 
