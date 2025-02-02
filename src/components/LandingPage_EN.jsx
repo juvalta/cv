@@ -120,15 +120,17 @@ function LandingPage() {
             <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Skills </strong> <br /> <br /> </Typography>
             <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginLeft: "0%" }}>
 
-              · User-centred design and usability <br />
+              · User-centred design and usability. <br />
 
-              · Resolving Windows errors <br />
+              · Resolving Windows errors. <br />
 
-              · Video editing (Davinci Resolve) <br />
+              · Video editing (Davinci Resolve). <br />
 
               · Experience as an exhibitor or representing an association. <br />
 
               · Exhibitor at various different LEGO exhibitions in Finland (visitor counts up to 10000). <br />
+
+              · Harassment contact person training. <br />
             </Typography>
 
             <Typography variant="h6" style={{ marginTop: '10%', marginBottom: "5%" }}> <strong> Working experience </strong> <br /> <br /> </Typography>

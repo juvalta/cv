@@ -117,14 +117,17 @@ function LandingPage() {
             <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Taidot </strong> <br /> <br /> </Typography>
             <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginLeft: "0%" }}>
 
-              · Käyttäjälähtöinen suunnittelu ja käytettävyys <br />
+              · Käyttäjälähtöinen suunnittelu ja käytettävyys. <br />
 
-              · Windows-käyttöjärjestelmän virhetilojen korjaaminen <br />
+              · Windows-käyttöjärjestelmän virhetilojen korjaaminen. <br />
 
-              · Videonmuokkaus (Davinci Resolve) <br />
+              · Videonmuokkaus (Davinci Resolve). <br />
 
               · Esiintymistilanteissa toimiminen. <br />
+
               · Esiintyjänä Suomen eri LEGO-messuilla (vierailijoita on ollut jopa 10000). <br />
+
+              · Häirintäyhdyshenkilökoulutus. <br />
             </Typography>
 
             <Typography variant="h6" style={{ marginTop: '10%', marginBottom: "5%" }}> <strong> Työkokemus </strong> <br /> <br /> </Typography>
