@@ -105,7 +105,11 @@ function LandingPage() {
 
                 · Tämän sivun lähdekoodi: <a href="https://github.com/juvalta/cv">https://github.com/juvalta/cv</a> <br />
 
-                · <a href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">Moonatees</a> <br />
+                · Moonatees-peli: <a href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">https://store.steampowered.com/app/607770/Moonatees/?l=finnish</a> <br />
+
+                · Työn alla oleva harrastusblogi: <a href="https://juvalta.github.io/blogi/">https://juvalta.github.io/blogi/</a> <br />
+
+                · Harrastusblogin lähdekoodi: <a href="https://github.com/juvalta/blogi">https://github.com/juvalta/blogi</a>
               </Typography>
             </div>
 
