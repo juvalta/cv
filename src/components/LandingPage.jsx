@@ -19,171 +19,178 @@ function LandingPage() {
 
   return (
     <>
-      
-        <Typography variant="h3" style={{ paddingTop: '5%', paddingBottom: '5%', fontStyle: 'italic' }}> Curriculum Vitae </Typography>
+
+      <Typography variant="h3" style={{ paddingTop: '5%', paddingBottom: '5%', fontStyle: 'italic' }}> Curriculum Vitae </Typography>
 
 
-        {/* Tämä Grid pitää sisällään koko CV:n pääsisällön. #25aeb0 */}
+      {/* Tämä Grid pitää sisällään koko CV:n pääsisällön. #25aeb0 */}
 
 
 
-        {/*Mobiilioptimoitu puoli alkaa tästä. Mobiililla näkyy yksi sarake kahden sijasta.*/}
+      {/*Mobiilioptimoitu puoli alkaa tästä. Mobiililla näkyy yksi sarake kahden sijasta.*/}
 
-        <Grid container justifyContent="center">
-          <Grid item size="grow">
+      <Grid container justifyContent="center">
+        <Grid item size="grow">
 
-          </Grid>
-          <Grid item size={{ xs: 10, sm: 4 }}>
+        </Grid>
+        <Grid item size={{ xs: 10, sm: 4 }}>
 
-            <div style={{ paddingBottom: '5%' }}>
+          <div style={{ paddingBottom: '5%' }}>
 
-              <Grid container spacing={3} direction={'column'} alignItems={"center"} style={{ width: '100%' }}>
+            <Grid container spacing={3} direction={'column'} alignItems={"center"} style={{ width: '100%' }}>
 
-                <Grid size={{ xs: 12, sm: 4 }} align="center" style={{ justifyContent: "center" }}>
+              <Grid size={{ xs: 12, sm: 4 }} align="center" style={{ justifyContent: "center" }}>
 
-                  <Avatar src={pfp} sx={{ width: 102, height: 102 }}></Avatar>
-
-                </Grid>
-                <Grid align="left" size={{ xs: 12, sm: 4 }}>
-
-                  <Typography style={{ textAlign: 'center' }}> Juho Valtavaara </Typography>
-
-                </Grid>
+                <Avatar src={pfp} sx={{ width: 102, height: 102 }}></Avatar>
 
               </Grid>
-            </div>
+              <Grid align="left" size={{ xs: 12, sm: 4 }}>
 
-            <div >
-              <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Esittely </strong> <br /> <br /> </Typography>
-              <Typography align="left"> Oulun yliopiston tietojenkäsittelytieteen maisterivaiheen opiskelija. Kirjoitin kanditutkielmani potilastietojärjestelmien käytettävyyden tasosta Suomessa, ja olenkin erityisesti kiinnostunut käytettävyydestä ja käyttäjäystävällisestä suunnittelusta. <br /> <br /> <br /> </Typography>
-            </div>
-            <div >
-              <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Koulutus </strong> <br /> <br /> </Typography>
-              <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
+                <Typography style={{ textAlign: 'center' }}> Juho Valtavaara </Typography>
 
+              </Grid>
 
-                · Lukio (Oulun Suomalaisen Yhteiskoulun lukio) <br />
+            </Grid>
+          </div>
 
-                · Luonnontieteen kandidaatti, tietojenkäsittelytieteet. Keskiarvo 4,17. <br />
-
-                · KieKuVi-opintokokonaisuus osana kandidaatin tutkintoa. Kieli-, kulttuuri- ja viestintä-opintoihini kuuluivat muun muassa italian ja saksan kielet. <br />
-              </Typography>
-              <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Kielitaito </strong> <br /> <br /> </Typography>
-              <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
+          <div >
+            <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Esittely </strong> <br /> <br /> </Typography>
+            <Typography align="left"> Oulun yliopiston tietojenkäsittelytieteen maisterivaiheen opiskelija. Kirjoitin kanditutkielmani potilastietojärjestelmien käytettävyyden tasosta Suomessa, ja olenkin erityisesti kiinnostunut käytettävyydestä ja käyttäjäystävällisestä suunnittelusta. <br /> <br /> <br /> </Typography>
+          </div>
+          <div >
+            <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Koulutus </strong> <br /> <br /> </Typography>
+            <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
 
 
-                · Suomi (äidinkieli) <br />
+              · Lukio (Oulun Suomalaisen Yhteiskoulun lukio) <br />
 
-                · Englanti (erinomainen) <br />
+              · Luonnontieteen kandidaatti, tietojenkäsittelytieteet. Keskiarvo 4,17. <br />
 
-                · Ruotsi (hyvä) <br />
+              · KieKuVi-opintokokonaisuus osana kandidaatin tutkintoa. Kieli-, kulttuuri- ja viestintä-opintoihini kuuluivat muun muassa italian ja saksan kielet. <br />
+            </Typography>
+            <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Kielitaito </strong> <br /> <br /> </Typography>
+            <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
 
-                · Saksa (B1/B2, sujuva) <br />
 
-                · Italia (tyydyttävä) <br />
+              · Suomi (äidinkieli) <br />
 
-                · Venäjä (alkeet) <br />
-              </Typography>
-              <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Ohjelmointikokemus </strong> <br /> <br /> </Typography>
-              <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
+              · Englanti (erinomainen) <br />
 
-                · Github: https://github.com/juvalta <br />
+              · Ruotsi (hyvä) <br />
 
-                · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi) <br />
+              · Saksa (B1/B2, sujuva) <br />
 
-                · Java <br />
+              · Italia (tyydyttävä) <br />
 
-                · C++ <br />
+              · Venäjä (alkeet) <br />
+            </Typography>
+            <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Ohjelmointikokemus </strong> <br /> <br /> </Typography>
+            <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
 
-                · Unity (C#). <br />
-                · VR-pelit, kuten Moonatees. <br />
+              · Github: <a href="https://github.com/juvalta">https://github.com/juvalta</a> <br />
 
-                · Python <br />
-              </Typography>
-              <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Projektit </strong> <br /> <br /> </Typography>
-              <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
+              · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi) <br />
 
-                · Tämän sivun lähdekoodi: <a href="https://github.com/juvalta/cv">https://github.com/juvalta/cv</a> <br />
+              · Kehitysympäristön käyttöönotto WSL2:lla (Ubuntu, Python venv, Lektor CMS) <br />
 
-                · Moonatees-peli: <a href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">https://store.steampowered.com/app/607770/Moonatees/?l=finnish</a> <br />
+              · Java <br />
+
+              · C++ <br />
+
+              · Unity (laaja C#-kokemus). <br />
+
+              · VR-pelit, kuten Moonatees. <br />
+
+              · Python <br />
+            </Typography>
+            <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Projektit </strong> <br /> <br /> </Typography>
+            <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
+
+              · Tämän sivun lähdekoodi: <a href="https://github.com/juvalta/cv">https://github.com/juvalta/cv</a> <br />
+
+              · Moonatees-peli: <a href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">https://store.steampowered.com/app/607770/Moonatees/?l=finnish</a> <br />
 
                 · Työn alla oleva harrastusblogi: <a href="https://juvalta.github.io/blogi/">https://juvalta.github.io/blogi/</a> <br />
 
                 · Harrastusblogin lähdekoodi: <a href="https://github.com/juvalta/blogi">https://github.com/juvalta/blogi</a>
-              </Typography>
-            </div>
+            </Typography>
+          </div>
 
-            <div style={{}}>
+          <div style={{}}>
 
-              <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Taidot </strong> <br /> <br /> </Typography>
-              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginLeft: "0%" }}>
+            <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Taidot </strong> <br /> <br /> </Typography>
+            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginLeft: "0%" }}>
 
-                · Käyttäjälähtöinen suunnittelu <br />
+              · Käyttäjälähtöinen suunnittelu ja käytettävyys. <br />
 
-                · Windows-käyttöjärjestelmän virhetilojen korjaaminen <br />
+              · Windows-käyttöjärjestelmän virhetilojen korjaaminen. <br />
 
-                · Videonmuokkaus (Davinci Resolve) <br />
+              · Videonmuokkaus (Davinci Resolve). <br />
 
-                · Esiintymistilanteissa toimiminen. <br />
-                · Esiintyjänä Suomen eri LEGO-messuilla (vierailijoita on ollut jopa 10000). <br />
-              </Typography>
+              · Esiintymistilanteissa toimiminen. <br />
 
-              <Typography variant="h6" style={{ marginTop: '10%', marginBottom: "5%" }}> <strong> Työkokemus </strong> <br /> <br /> </Typography>
-              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
+              · Esiintyjänä Suomen eri LEGO-messuilla (vierailijoita on ollut jopa 10000). <br />
 
-                · Projektipäällikkö School of Gamingin Oulun yliopistolta tilaamalla kurssiprojektilla. <br />
+              · Häirintäyhdyshenkilökoulutus. <br />
+            </Typography>
 
-                · Koodikärpät-kesätyö 6.6.-5.8.16. Unity3D. <br />
+            <Typography variant="h6" style={{ marginTop: '10%', marginBottom: "5%" }}> <strong> Työkokemus </strong> <br /> <br /> </Typography>
+            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 
-                · Koodikärpät-kesätyö 3.7.-24.7.2017. Unity3D. <br />
+              · Projektipäällikkö & SCRUM-päällikkö School of Gamingin Oulun yliopistolta tilaamalla kurssiprojektilla (7.1.-14.5.21). <br />
 
-                · Kesätyöseteliharjoittelu Oulun yliopistolla. <br />
+              · Koodikärpät-kesätyö 6.6.-5.8.16. Unity3D. <br />
 
-                · TET-harjoittelu Oulun Korussa ja Työelämän kehittämispalveluissa v. 2013. <br />
+              · Koodikärpät-kesätyö 3.7.-24.7.2017. Unity3D. <br />
 
-              </Typography>
-            </div>
-            <div style={{}}>
-              <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Vapaaehtoistyö </strong> <br /> <br /> </Typography>
-              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginBottom: "15%" }}>
+              · Kesätyöseteliharjoittelu Oulun yliopistolla. <br />
 
-                <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Palikkatakomo </strong> <br /> <br /> </Typography>
-                · Hallituksen jäsen 2024. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. Olen myös tehnyt: <br />
-                · somehallintaa <br />
-                · LAN-Ambassadorin avustusta <br />
-                · yhteisteosten ja -tilausten organisointia <br />
-                · mediaedustusta <br />
-                · jäsenrekrytointia <br />
-                · kilpailujen organisointia <br />
-              </Typography>
-              <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
+              · TET-harjoittelu Oulun Korussa ja Työelämän kehittämispalveluissa v. 2013. <br />
 
-                <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Blanko ry </strong> <br /> <br /> </Typography>
-                · Hallituksen jäsen 2025. Suhdevastaava. Vastuut: <br />
-                · yhteistyökumppaneiden rekrytointi <br />
-                · yhteistyökumppaneiden työpaikkojen mainostus <br />
-                · yhteistyökumppani-illan järjestäminen <br />
-                · suhdetiimin managerointi <br />
-                · yhteistyökumppaniviestintä <br />
-                · siivous ja valvonta tapahtumissa <br />
-              </Typography>
+            </Typography>
+          </div>
+          <div style={{}}>
+            <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Vapaaehtoistyö </strong> <br /> <br /> </Typography>
+            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginBottom: "15%" }}>
 
-            </div>
-          </Grid>
-          <Grid item size="grow">
+              <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Palikkatakomo </strong> <br /> <br /> </Typography>
+              · Hallituksen jäsen 2024. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. Olen myös tehnyt: <br />
+              · somehallintaa <br />
+              · LAN-Ambassadorin avustusta <br />
+              · yhteisteosten ja -tilausten organisointia <br />
+              · mediaedustusta <br />
+              · jäsenrekrytointia <br />
+              · kilpailujen organisointia <br />
+              · nettiartikkelien teko Textpattern CMS:llä <br />
+            </Typography>
+            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 
-          </Grid>
+              <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Blanko ry </strong> <br /> <br /> </Typography>
+              · Hallituksen jäsen 2025. Suhdevastaava. Vastuut: <br />
+              · yhteistyökumppaneiden rekrytointi <br />
+              · yhteistyökumppaneiden työpaikkojen mainostus <br />
+              · yhteistyökumppani-illan järjestäminen <br />
+              · suhdetiimin managerointi <br />
+              · yhteistyökumppaniviestintä <br />
+              · siivous ja valvonta tapahtumissa <br />
+            </Typography>
+
+          </div>
         </Grid>
+        <Grid item size="grow">
+
+        </Grid>
+      </Grid>
 
 
-        <footer style={{ paddingTop: '10%', paddingBottom: '5%' }}>
-          <Container maxWidth='sm' style={{ color: "blue" }}> </Container>
-          <Typography> Tämä CV on koodattu Javascriptillä, eli se on nettisivu! </Typography>
-          <IconButton style={{ color: "lightblue" }}>
-            <LinkedInIcon sx={{ fontSize: 40 }} size='large' onClick={event => window.location.href = 'https://fi.linkedin.com/in/juho-valtavaara-028992258?trk=public_profile_browsemap'}></LinkedInIcon>
-          </IconButton>
-        </footer>
-      
+      <footer style={{ paddingTop: '10%', paddingBottom: '5%' }}>
+        <Container maxWidth='sm' style={{ color: "blue" }}> </Container>
+        <Typography> Tämä CV on koodattu Javascriptillä, eli se on nettisivu! </Typography>
+        <IconButton style={{ color: "lightblue" }}>
+          <LinkedInIcon sx={{ fontSize: 40 }} size='large' onClick={event => window.location.href = 'https://fi.linkedin.com/in/juho-valtavaara-028992258?trk=public_profile_browsemap'}></LinkedInIcon>
+        </IconButton>
+      </footer>
+
     </>
 
 
