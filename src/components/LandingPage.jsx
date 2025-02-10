@@ -97,9 +97,9 @@ function LandingPage() {
 
               · C++ <br />
 
-              · Unity (laaja C#-kokemus). <br />
+              · Unity (laaja C#-kokemus) <br />
 
-              · VR-pelit, kuten Moonatees. <br />
+              · VR-pelit, kuten Moonatees <br />
 
               · Python <br />
             </Typography>
