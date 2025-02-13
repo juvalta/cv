@@ -20,10 +20,10 @@ function LandingPage() {
   const kielitaito = `
               · Suomi (äidinkieli)
               · Englanti (erinomainen)
-              · Ruotsi (hyvä)
-              · Saksa (B1/B2, sujuva)
-              · Italia (tyydyttävä)
-              · Venäjä (alkeet) 
+              · Ruotsi (B1/B2)
+              · Saksa (B1/B2)
+              · Italia (A1/A2)
+              · Venäjä (A1) 
   `
   const githublinkki = <>· Github: <a href="https://github.com/juvalta">https://github.com/juvalta</a></>
 
