@@ -14,3 +14,4 @@ TEHTY:
 - Korjaa relatiiviset polut: korjattu laittamalla package.jsoniin homepage: "./" sen sijasta, että siellä lukee homepage: "https://juvalta.github.io/cv/". Jostain syystä githubin linkki rikkoi relatiiviset polut/ei toiminut, sillä silloin github pages yritti etsiä tiedostoja osoittessta "https://juvalta.github.io" sen sijaan, että se etsii ne repositorion osoitteesta "https://juvalta.github.io/cv/".
 - Muuta BrowserRouter HashRouteriin, sillä BrowserRouter ei toimi Github Pagesin kanssa.
 - Tee englanninkielinen versio.
+- Github Actions korjattu siten, että master-branchilla on oikeudet Github Actionsiin (aikaisemmin oikeudet olivat vain gh-pages -branchilla, mikä aiheutti 404-errorin kun master-branchi teki buildin Github Actionsilla ja puski/yritti puskea sen Github Pagesiin). 
