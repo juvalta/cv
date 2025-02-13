@@ -11,11 +11,79 @@ function LandingPage() {
   const [height, setHeight] = useState(0)
   const profilePictureHeight = useRef(null)
 
-  {/*
-  useLayoutEffect(() => {
+  const koulutusteksti = `
+              · Lukio (Oulun Suomalaisen Yhteiskoulun lukio) 
+              · Luonnontieteen kandidaatti, tietojenkäsittelytieteet. Keskiarvo 4,17.
+              · KieKuVi-opintokokonaisuus osana kandidaatin tutkintoa. Kieli-, kulttuuri- ja viestintä-opintoihini kuuluivat muun muassa italian ja saksan kielet. 
+  `
 
-  });
-  */}
+  const kielitaito = `
+              · Suomi (äidinkieli)
+              · Englanti (erinomainen)
+              · Ruotsi (hyvä)
+              · Saksa (B1/B2, sujuva)
+              · Italia (tyydyttävä)
+              · Venäjä (alkeet)
+  `
+  const githublinkki = <>· Github: <a href="https://github.com/juvalta">https://github.com/juvalta</a></>
+
+  const ohjelmointikokemus = `
+              · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi)
+              · Kehitysympäristön käyttöönotto WSL2:lla (Ubuntu, Python venv, Lektor CMS) 
+              · Java
+              · C++
+              · Unity (laaja C#-kokemus)
+              · VR-pelit, kuten Moonatees 
+              · Python
+  `
+
+  const projektit = <>
+    · Tämän sivun lähdekoodi: <a href="https://github.com/juvalta/cv">https://github.com/juvalta/cv</a> <br />
+
+    · Moonatees-peli: <a href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">https://store.steampowered.com/app/607770/Moonatees/?l=finnish</a> <br />
+
+    · Työn alla oleva harrastusblogi: <a href="https://juvalta.github.io/blogi/">https://juvalta.github.io/blogi/</a> <br />
+
+    · Harrastusblogin lähdekoodi: <a href="https://github.com/juvalta/blogi">https://github.com/juvalta/blogi</a>
+  </>
+
+const taidot = `
+              · Käyttäjälähtöinen suunnittelu ja käytettävyys.
+              · Windows-käyttöjärjestelmän virhetilojen korjaaminen.
+              · Videonmuokkaus (Davinci Resolve). 
+              · Esiintymistilanteissa toimiminen. 
+              · Esiintyjänä Suomen eri LEGO-messuilla (vierailijoita on ollut jopa 10000). 
+              · Häirintäyhdyshenkilökoulutus. 
+`
+
+const työkokemus = `
+              · Projektipäällikkö & SCRUM-päällikkö School of Gamingin Oulun yliopistolta tilaamalla kurssiprojektilla (7.1.-14.5.21). 
+              · Koodikärpät-kesätyö 6.6.-5.8.16. Unity3D. 
+              · Koodikärpät-kesätyö 3.7.-24.7.2017. Unity3D. 
+              · Kesätyöseteliharjoittelu Oulun yliopistolla. 
+              · TET-harjoittelu Oulun Korussa ja Työelämän kehittämispalveluissa v. 2013. 
+`
+
+const palikkatakomo = `
+              · Hallituksen jäsen 2024. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. Olen myös tehnyt: 
+              · somehallintaa 
+              · LAN-Ambassadorin avustusta 
+              · yhteisteosten ja -tilausten organisointia 
+              · mediaedustusta 
+              · jäsenrekrytointia 
+              · kilpailujen organisointia 
+              · nettiartikkelien teko Textpattern CMS:llä 
+`
+
+const blankory = `
+              · Hallituksen jäsen 2025. Suhdevastaava. Vastuut:
+              · yhteistyökumppaneiden rekrytointi
+              · yhteistyökumppaneiden työpaikkojen mainostus
+              · yhteistyökumppani-illan järjestäminen
+              · suhdetiimin managerointi
+              · yhteistyökumppaniviestintä
+              · siivous ja valvonta tapahtumissa
+`
 
   return (
     <>
@@ -59,120 +127,63 @@ function LandingPage() {
           </div>
           <div >
             <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Koulutus </strong> <br /> <br /> </Typography>
-            <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
+            <Typography variant="body1" align="left" style={{ lineHeight: '150%', whiteSpace: 'pre-line' }}>
 
+              {koulutusteksti}
 
-              · Lukio (Oulun Suomalaisen Yhteiskoulun lukio) <br />
-
-              · Luonnontieteen kandidaatti, tietojenkäsittelytieteet. Keskiarvo 4,17. <br />
-
-              · KieKuVi-opintokokonaisuus osana kandidaatin tutkintoa. Kieli-, kulttuuri- ja viestintä-opintoihini kuuluivat muun muassa italian ja saksan kielet. <br />
             </Typography>
             <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Kielitaito </strong> <br /> <br /> </Typography>
-            <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
+            <Typography variant="body1" align="left" style={{ lineHeight: '150%', whiteSpace: 'pre-line' }}>
 
+              {kielitaito}
 
-              · Suomi (äidinkieli) <br />
-
-              · Englanti (erinomainen) <br />
-
-              · Ruotsi (hyvä) <br />
-
-              · Saksa (B1/B2, sujuva) <br />
-
-              · Italia (tyydyttävä) <br />
-
-              · Venäjä (alkeet) <br />
             </Typography>
             <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Ohjelmointikokemus </strong> <br /> <br /> </Typography>
-            <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
+            <Typography variant="body1" align="left" style={{ lineHeight: '150%', whiteSpace: 'pre-line' }}>
 
-              · Github: <a href="https://github.com/juvalta">https://github.com/juvalta</a> <br />
+              {githublinkki}
+              {ohjelmointikokemus}
 
-              · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi) <br />
-
-              · Kehitysympäristön käyttöönotto WSL2:lla (Ubuntu, Python venv, Lektor CMS) <br />
-
-              · Java <br />
-
-              · C++ <br />
-
-              · Unity (laaja C#-kokemus) <br />
-
-              · VR-pelit, kuten Moonatees <br />
-
-              · Python <br />
             </Typography>
             <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Projektit </strong> <br /> <br /> </Typography>
             <Typography variant="body1" align="left" style={{ lineHeight: '150%' }}>
 
-              · Tämän sivun lähdekoodi: <a href="https://github.com/juvalta/cv">https://github.com/juvalta/cv</a> <br />
+              {projektit}
 
-              · Moonatees-peli: <a href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">https://store.steampowered.com/app/607770/Moonatees/?l=finnish</a> <br />
-
-                · Työn alla oleva harrastusblogi: <a href="https://juvalta.github.io/blogi/">https://juvalta.github.io/blogi/</a> <br />
-
-                · Harrastusblogin lähdekoodi: <a href="https://github.com/juvalta/blogi">https://github.com/juvalta/blogi</a>
             </Typography>
           </div>
 
           <div style={{}}>
 
             <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Taidot </strong> <br /> <br /> </Typography>
-            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginLeft: "0%" }}>
+            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginLeft: "0%", whiteSpace: 'pre-line' }}>
 
-              · Käyttäjälähtöinen suunnittelu ja käytettävyys. <br />
+              {taidot}
 
-              · Windows-käyttöjärjestelmän virhetilojen korjaaminen. <br />
-
-              · Videonmuokkaus (Davinci Resolve). <br />
-
-              · Esiintymistilanteissa toimiminen. <br />
-
-              · Esiintyjänä Suomen eri LEGO-messuilla (vierailijoita on ollut jopa 10000). <br />
-
-              · Häirintäyhdyshenkilökoulutus. <br />
             </Typography>
 
             <Typography variant="h6" style={{ marginTop: '10%', marginBottom: "5%" }}> <strong> Työkokemus </strong> <br /> <br /> </Typography>
-            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
+            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', whiteSpace: 'pre-line' }}>
 
-              · Projektipäällikkö & SCRUM-päällikkö School of Gamingin Oulun yliopistolta tilaamalla kurssiprojektilla (7.1.-14.5.21). <br />
-
-              · Koodikärpät-kesätyö 6.6.-5.8.16. Unity3D. <br />
-
-              · Koodikärpät-kesätyö 3.7.-24.7.2017. Unity3D. <br />
-
-              · Kesätyöseteliharjoittelu Oulun yliopistolla. <br />
-
-              · TET-harjoittelu Oulun Korussa ja Työelämän kehittämispalveluissa v. 2013. <br />
+              {työkokemus}
 
             </Typography>
           </div>
           <div style={{}}>
             <Typography variant="h6" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Vapaaehtoistyö </strong> <br /> <br /> </Typography>
-            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginBottom: "15%" }}>
+            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', marginBottom: "15%", whiteSpace: 'pre-line' }}>
 
-              <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Palikkatakomo </strong> <br /> <br /> </Typography>
-              · Hallituksen jäsen 2024. Takomon sivujen käytettävyystestaus ja käynnissä oleva uudelleenkehitys. Olen myös tehnyt: <br />
-              · somehallintaa <br />
-              · LAN-Ambassadorin avustusta <br />
-              · yhteisteosten ja -tilausten organisointia <br />
-              · mediaedustusta <br />
-              · jäsenrekrytointia <br />
-              · kilpailujen organisointia <br />
-              · nettiartikkelien teko Textpattern CMS:llä <br />
+              <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%", whiteSpace: 'none' }}> <strong> Palikkatakomo </strong> <br /> <br /> </Typography>
+              
+              {palikkatakomo}
+
             </Typography>
             <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
 
               <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Blanko ry </strong> <br /> <br /> </Typography>
-              · Hallituksen jäsen 2025. Suhdevastaava. Vastuut: <br />
-              · yhteistyökumppaneiden rekrytointi <br />
-              · yhteistyökumppaneiden työpaikkojen mainostus <br />
-              · yhteistyökumppani-illan järjestäminen <br />
-              · suhdetiimin managerointi <br />
-              · yhteistyökumppaniviestintä <br />
-              · siivous ja valvonta tapahtumissa <br />
+
+              {blankory}
+
             </Typography>
 
           </div>
