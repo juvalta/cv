@@ -23,7 +23,7 @@ function LandingPage() {
               · Ruotsi (hyvä)
               · Saksa (B1/B2, sujuva)
               · Italia (tyydyttävä)
-              · Venäjä (alkeet)
+              · Venäjä (alkeet) 
   `
   const githublinkki = <>· Github: <a href="https://github.com/juvalta">https://github.com/juvalta</a></>
 
