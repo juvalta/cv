@@ -3,7 +3,8 @@ name: Generate site and push to Github Pages
 on:
   push:
     branches:
-      - gh-pages
+      - master
+      
 
 
 jobs:
