@@ -92,7 +92,7 @@ function LandingPage() {
 
               · Github: <a href="https://github.com/juvalta">https://github.com/juvalta</a> <br />
 
-              · Web development using React (e.g. MongoDB, Figma, MaterialUI, Auth0-integration) <br />
+              · Web development using React (e.g. MongoDB, Figma, MaterialUI, Auth0-integration, Lighthouse) <br />
 
               · Setting up a development environment with WSL2 (Ubuntu, Python venv, Lektor CMS) <br />
 

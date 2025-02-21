@@ -28,7 +28,7 @@ function LandingPage() {
   const githublinkki = <>· Github: <a href="https://github.com/juvalta">https://github.com/juvalta</a></>
 
   const ohjelmointikokemus = `
-              · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi)
+              · Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi, Lighthouse)
               · Kehitysympäristön käyttöönotto WSL2:lla (Ubuntu, Python venv, Lektor CMS) 
               · Java
               · C++
