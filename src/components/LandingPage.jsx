@@ -178,9 +178,9 @@ const blankory = `
               {palikkatakomo}
 
             </Typography>
-            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%' }}>
+            <Typography variant="body1" style={{ textAlign: "left", lineHeight: '150%', whiteSpace: 'pre-line' }}>
 
-              <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%" }}> <strong> Blanko ry </strong> <br /> <br /> </Typography>
+              <Typography variant="h10" style={{ marginTop: "10%", marginBottom: "5%", whiteSpace: 'pre-line' }}> <strong> Blanko ry </strong> <br /> <br /> </Typography>
 
               {blankory}
 
