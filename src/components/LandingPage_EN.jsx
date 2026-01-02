@@ -20,6 +20,8 @@ function LandingPage() {
   return (
     <>
 
+
+      <div style={{ border: '0,1%', borderRadius: '1%', borderColor: "lightgray", backgroundColor: alpha('#25aeb0', 0.25) }}>
       <Typography variant="h3" style={{ paddingTop: '5%', paddingBottom: '5%', fontStyle: 'italic' }}> Curriculum Vitae </Typography>
 
 
@@ -188,6 +190,8 @@ function LandingPage() {
           <LinkedInIcon sx={{ fontSize: 40 }} size='large' onClick={event => window.location.href = 'https://fi.linkedin.com/in/juho-valtavaara-028992258?trk=public_profile_browsemap'}></LinkedInIcon>
         </IconButton>
       </footer>
+
+    </div>
 
     </>
 

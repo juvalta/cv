@@ -12,6 +12,7 @@ import {
 import LandingPage from "./components/LandingPage";
 import Solita from './components/Solita';
 import LandingPage_EN from './components/LandingPage_EN';
+import CV2 from './components/CV2';
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
   */}
 
   return (
-    <div style={{ border: '0,1%', borderRadius: '1%', borderColor: "lightgray", backgroundColor: alpha('#25aeb0', 0.25) }}>
+    
     <Router basename= {"/"}>
       <Routes>
         {/*path="" is required for localhost dev environment to work, but github pages is deployed as https://juvalta.github.io/cv/ so gh-pages requires path="/cv"*/}
@@ -34,9 +35,10 @@ function App() {
         <Route exact path="/cv/solita" element={<Solita />} />
         <Route exact path="/en" element={<LandingPage_EN />} />
         <Route exact path="./en" element={<LandingPage_EN />} />
+        <Route exact path="/cv2" element={<CV2 />}/>
+        <Route exact path="/cv/cv2" element={<CV2 />}/>
       </Routes>
     </Router>
-    </div>
 
   )
 }
