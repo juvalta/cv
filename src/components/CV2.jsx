@@ -8,7 +8,7 @@ function CV2() {
 
         <div>
         <div className="profile">
-            <img className="pfp-pic" src={pfp} />
+            <img className="pfp-pic" alt="Profiilikuva" src={pfp} />
             <h1>Juho Valtavaara</h1>
             <div className="location">
             <LocationOnIcon />
@@ -21,18 +21,25 @@ function CV2() {
             <h2>Projektit</h2>
             <a className="project-link" target="_blank" href="https://github.com/juvalta/cv">CV</a>
             <a className="project-link" target="_blank" href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">Moonatees</a>
+            <a className="project-link" target="_blank" href="https://github.com/juvalta?tab=repositories">Kaikki repot</a>
             <h3>Palikkatakomon nettisivut</h3>
-            <div className="demo-and-code-layout">
+            
                 <a className="demo-link" target="_blank" href="https://infamousq.github.io/palikkatakomo_frontpage/">Demo</a>
                 <a className="project-link" target="_blank" href="https://github.com/InfamousQ/palikkatakomo_frontpage/tree/deploy" >Github</a>
-            </div>
+            
             <h3>Demosivu satunnaisille projekteille</h3>
-            <div className="demo-and-code-layout">
+            
                 <a className="demo-link" target="_blank" href="https://juvalta.github.io/blogi/">Demo</a>
                 <a className="project-link" target="_blank" href="https://github.com/juvalta/blogi">Github</a>
-            </div>
+            
             <div className="margin-bottom-5-percent" />
-            <a className="project-link" target="_blank" href="https://github.com/juvalta?tab=repositories">Github</a>
+            
+        </div>
+
+        <div className="card-layout">
+            <h2>Koulutus</h2>
+            <h3>Filosofian maisteri, tietojenkäsittelytieteet</h3>
+            <h3>Luonnontieteiden kandidaatti, tietojenkäsittelytieteet</h3>
         </div>
 
         <div className="card-layout">
@@ -73,6 +80,18 @@ function CV2() {
                 <li>Delegointi</li>
             </ul>
             
+        </div>
+
+        <div className="card-layout">
+            <h2>Kielitaito</h2>
+            <ul className="experience-list">
+                <li>Suomi (äidinkieli)</li>
+                <li>Englanti (erinomainen)</li>
+                <li>Ruotsi (B1/B2)</li>
+                <li>Saksa (B1/B2)</li>
+                <li>Italia (A1/A2)</li>
+                <li>Venäjä (A1)</li>
+            </ul>
         </div>
 
         </div>
