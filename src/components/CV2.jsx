@@ -21,6 +21,7 @@ function CV2() {
             <h2>Projektit</h2>
             <a className="project-link" target="_blank" href="https://github.com/juvalta/cv">CV</a>
             <a className="project-link" target="_blank" href="https://store.steampowered.com/app/607770/Moonatees/?l=finnish">Moonatees</a>
+            <a className="project-link" target="_blank" href="https://github.com/interact-rg/SmartCanvas/tree/main">SmartCanvas</a>
             <a className="project-link" target="_blank" href="https://github.com/juvalta?tab=repositories">Kaikki repot</a>
             <h3>Palikkatakomon nettisivut</h3>
             
@@ -80,6 +81,19 @@ function CV2() {
                 <li>Delegointi</li>
             </ul>
             
+        </div>
+
+        <div className="card-layout">
+            <h2>Ohjelmointikokemus</h2>
+            <ul className="experience-list">
+                <li>Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi, Lighthouse)</li>
+                <li>HTML- ja CSS-kehitys WSL2:n sisällä (Ubuntu, Python venv, Lektor CMS)</li>
+                <li>Java</li>
+                <li>C# Unity3D-kehityksessä (n. 6kk Unityn käyttöä)</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Python</li>
+            </ul>
         </div>
 
         <div className="card-layout">
