@@ -30,13 +30,13 @@ function App() {
     <Router basename= {"/"}>
       <Routes>
         {/*path="" is required for localhost dev environment to work, but github pages is deployed as https://juvalta.github.io/cv/ so gh-pages requires path="/cv"*/}
-        <Route exact path="/cv" element={<LandingPage />} />
-        <Route exact path="" element={<LandingPage />} />
+        <Route exact path="/cv" element={<CV2 />} />
+        <Route exact path="" element={<CV2 />} />
         <Route exact path="/cv/solita" element={<Solita />} />
         <Route exact path="/en" element={<LandingPage_EN />} />
         <Route exact path="./en" element={<LandingPage_EN />} />
-        <Route exact path="/cv2" element={<CV2 />}/>
-        <Route exact path="/cv/cv2" element={<CV2 />}/>
+        <Route exact path="/cv_legacy" element={<LandingPage />}/>
+        <Route exact path="/cv/cv_legacy" element={<LandingPage />}/>
       </Routes>
     </Router>
 
