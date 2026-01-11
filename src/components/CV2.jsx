@@ -53,7 +53,7 @@ function CV2() {
                 <li>React, Node.js, MongoDB, Auth0-integraatio</li>
             </ul>
 
-            <h3>Koodikärpät-kestätyö (2016 & 2017, 4kk)</h3>
+            <h3>Koodikärpät-kesätyö (2016 & 2017, 4kk)</h3>
             <ul className="experience-list">
                 <li>Unity3D-kehitys</li>
                 <li>Moonatees-pelin kehitys</li>
@@ -61,10 +61,10 @@ function CV2() {
 
             <h3>Suhdevastaava, Blanko ry</h3>
             <ul className="experience-list">
-                <li>Rahan kerääminen n. 22000 euron verran</li>
+                <li>Rahan kerääminen n. 22000 euron verran sopimuksilla</li>
                 <li>Suhdetiimin managerointi</li>
                 <li>Rekrytapahtumien järjestäminen</li>
-                <li>Yhteistyökumppaneiden värväys</li>
+                <li>Yhteistyökumppaneiden värväys kasvokkain ja sähköpostitse</li>
             </ul>
 
             <h3>Varajäsen, Palikkatakomo ry, 2024</h3>
@@ -87,7 +87,7 @@ function CV2() {
             <h2>Ohjelmointikokemus</h2>
             <ul className="experience-list">
                 <li>Nettisivukehitys Reactilla (mm. MongoDB:n käyttöönotto, Figma, MaterialUI, Auth0-integrointi, Lighthouse)</li>
-                <li>HTML- ja CSS-kehitys WSL2:n sisällä (Ubuntu, Python venv, Lektor CMS)</li>
+                <li>HTML- ja CSS-kehitys WSL2:n sisällä (Ubuntu, Python venv, Lektor CMS, WAVE evaluation tool)</li>
                 <li>Java</li>
                 <li>C# Unity3D-kehityksessä (n. 6kk Unityn käyttöä)</li>
                 <li>C++</li>

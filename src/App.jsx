@@ -13,6 +13,7 @@ import LandingPage from "./components/LandingPage";
 import Solita from './components/Solita';
 import LandingPage_EN from './components/LandingPage_EN';
 import CV2 from './components/CV2';
+import CV2_EN from './components/CV2_EN';
 
 function App() {
 
@@ -33,8 +34,8 @@ function App() {
         <Route exact path="/cv" element={<CV2 />} />
         <Route exact path="" element={<CV2 />} />
         <Route exact path="/cv/solita" element={<Solita />} />
-        <Route exact path="/en" element={<LandingPage_EN />} />
-        <Route exact path="./en" element={<LandingPage_EN />} />
+        <Route exact path="/en" element={<CV2_EN />} />
+        <Route exact path="./en" element={<CV2_EN />} />
         <Route exact path="/cv_legacy" element={<LandingPage />}/>
         <Route exact path="/cv/cv_legacy" element={<LandingPage />}/>
       </Routes>
