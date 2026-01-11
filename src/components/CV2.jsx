@@ -26,12 +26,12 @@ function CV2() {
             <h3>Palikkatakomon nettisivut</h3>
             
                 <a className="demo-link" target="_blank" href="https://infamousq.github.io/palikkatakomo_frontpage/">Demo</a>
-                <a className="project-link" target="_blank" href="https://github.com/InfamousQ/palikkatakomo_frontpage/tree/deploy" >Github</a>
+                <a className="project-link" target="_blank" href="https://github.com/InfamousQ/palikkatakomo_frontpage/tree/deploy" >GitHub</a>
             
             <h3>Demosivu satunnaisille projekteille</h3>
             
                 <a className="demo-link" target="_blank" href="https://juvalta.github.io/blogi/">Demo</a>
-                <a className="project-link" target="_blank" href="https://github.com/juvalta/blogi">Github</a>
+                <a className="project-link" target="_blank" href="https://github.com/juvalta/blogi">GitHub</a>
             
             <div className="margin-bottom-5-percent" />
             
