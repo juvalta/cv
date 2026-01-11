@@ -14,7 +14,7 @@ function CV2_EN() {
             <LocationOnIcon />
             <p>Oulu</p>
             </div>
-            <p>Web developer and Master of Science from Information Processing Science. Experienced communicator and teamplayer through volunteering.</p>
+            <p>Web developer and Master of Science in Information Processing Science. Experienced communicator and teamplayer through volunteering.</p>
         </div>
 
         <div className="card-layout">
