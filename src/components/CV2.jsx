@@ -63,7 +63,7 @@ function CV2() {
             <ul className="experience-list">
                 <li>Rahan kerääminen n. 22000 euron verran sopimuksilla</li>
                 <li>Suhdetiimin managerointi</li>
-                <li>Rekrytapahtumien järjestäminen</li>
+                <li>Rekry- ja virkistäytymistapahtumien järjestäminen</li>
                 <li>Yhteistyökumppaneiden värväys kasvokkain ja sähköpostitse</li>
             </ul>
 
